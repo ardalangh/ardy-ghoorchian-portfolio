@@ -16,7 +16,7 @@ const skillCategories: SkillCategory[] = [
         <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h6v2H7v-2z"/>
       </svg>
     ),
-    skills: ["Python with Django, FastAPI, Flask", "Java with Spring Boot", "JavaScript, TypeScript, Node.js", "Ruby on Rails"]
+    skills: ["Python on  Django, FastAPI, Flask", "Java on Spring Boot", "JavaScript & TypeScript on Node", "Ruby on Rails", "Scala on Finagle"]
   },
   {
     title: "Front End",
