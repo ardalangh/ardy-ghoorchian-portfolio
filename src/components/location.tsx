@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Location() {
   return (
     <div className="flex flex-col items-center justify-center space-y-10 p-8">
@@ -7,9 +9,11 @@ export default function Location() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
         <div className="relative">
-          <img
+          <Image
             src="/sfMap.png"
             alt="San Francisco Map"
+            width={500}
+            height={300}
             className="w-full h-auto rounded-lg"
             style={{
               maskImage: 'radial-gradient(ellipse at center, black 30%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.4) 70%, transparent 100%)',
@@ -20,9 +24,11 @@ export default function Location() {
         </div>
         
         <div className="relative">
-          <img
+          <Image
             src="/charlotteMap.png"
             alt="Charlotte Map"
+            width={500}
+            height={300}
             className="w-full h-auto rounded-lg"
             style={{
               maskImage: 'radial-gradient(ellipse at center, black 30%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.4) 70%, transparent 100%)',

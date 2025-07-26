@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Boxes } from "@/components/ui/background-boxes";
 import { cn } from "@/lib/utils";
 
