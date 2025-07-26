@@ -15,6 +15,7 @@ export default function Location() {
             width={500}
             height={300}
             className="w-full h-auto rounded-lg"
+            priority
             style={{
               maskImage: 'radial-gradient(ellipse at center, black 30%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.4) 70%, transparent 100%)',
               WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.4) 70%, transparent 100%)',
@@ -30,6 +31,7 @@ export default function Location() {
             width={500}
             height={300}
             className="w-full h-auto rounded-lg"
+            priority
             style={{
               maskImage: 'radial-gradient(ellipse at center, black 30%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.4) 70%, transparent 100%)',
               WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.4) 70%, transparent 100%)',
