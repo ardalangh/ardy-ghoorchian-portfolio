@@ -49,16 +49,14 @@ const skillCategories: SkillCategory[] = [
 
 export default function TechnicalSkills() {
   return (
-    <div className="py-8 px-8">
+    <div className="py-14 px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Technical Skills
           </h2>
-          <p className="text-lg md:text-xl text-gray-300">
-            A comprehensive toolkit spanning the full stack and beyond
-          </p>
+        
         </div>
 
         {/* Skills Grid */}
