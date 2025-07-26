@@ -16,7 +16,7 @@ const skillCategories: SkillCategory[] = [
         <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h6v2H7v-2z"/>
       </svg>
     ),
-    skills: ["Python", "Java", "JavaScript", "Ruby", "C#", "Node.js", "Express", "Django", "Flask", "Spring", "Ruby on Rails", "ASP.NET", "MongoDB"]
+    skills: ["Python with Django, FastAPI, Flask", "Java with Spring Boot", "JavaScript, TypeScript, Node.js", "Ruby on Rails"]
   },
   {
     title: "Front End",
@@ -64,11 +64,16 @@ export default function TechnicalSkills() {
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-gray-700 transition-colors"
+              className="rounded-lg p-6 border transition-colors"
+              style={{ 
+                backgroundColor: '#0c0c16',
+                borderColor: '#000000',
+                borderWidth: '1px'
+              }}
             >
               {/* Category Header */}
               <div className="flex items-center gap-3 mb-6">
-                <div className="text-blue-400">
+                <div style={{ color: '#7d7c9b' }}>
                   {category.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-white">
@@ -81,7 +86,12 @@ export default function TechnicalSkills() {
                 {category.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="px-3 py-1 bg-gray-800 text-white text-sm rounded-full border border-gray-700 hover:border-gray-600 transition-colors"
+                    className="px-3 py-1 text-sm rounded-full border transition-colors"
+                    style={{
+                      backgroundColor: '#34334f',
+                      borderColor: '#000000',
+                      borderWidth: '1px'
+                    }}
                   >
                     {skill}
                   </span>

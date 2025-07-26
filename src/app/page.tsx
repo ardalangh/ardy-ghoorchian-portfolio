@@ -3,8 +3,9 @@
 import Image from "next/image";
 import { Boxes } from "@/components/ui/background-boxes";
 import { cn } from "@/lib/utils";
-import TechnicalSkills from "@/components/ui/technical-skills";
 
+import TechnicalSkills from "@/components/ui/technical-skills";
+import Location from "@/components/location";
 export default function Home() {
   const handleDownloadResume = () => {
     // Create a link element
@@ -100,6 +101,9 @@ export default function Home() {
 
       {/* Technical Skills Section */}
       <TechnicalSkills />
+
+      {/* Location Section */}
+      <Location />
     </div>
   );
 }
