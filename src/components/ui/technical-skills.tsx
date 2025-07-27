@@ -27,7 +27,8 @@ const skillCategories: SkillCategory[] = [
       { name: "JavaScript & TypeScript on Node", proficiency: "Production Level Experience", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
       { name: "Scala on Finagle", proficiency: "Production Level Experience", url: "https://www.scala-lang.org" },
       { name: "Ruby on Rails", proficiency: "Exposure through Academia", url: "https://rubyonrails.org" },
-      { name: "Go on Gin", proficiency: "Exposure through Academia", url: "https://golang.org" }
+      { name: "Go on Gin", proficiency: "Exposure through Academia", url: "https://golang.org" },
+      { name: "Rust on Rocket", proficiency: "Love to Learn if I find time", url: "https://www.rust-lang.org" }
     ]
   },
   {
@@ -38,20 +39,57 @@ const skillCategories: SkillCategory[] = [
       </svg>
     ),
     skills: [
-      { name: "React", proficiency: "Production Level Experience" },
-      { name: "React Native", proficiency: "Production Level Experience" },
-      { name: "Redux", proficiency: "Production Level Experience" },
-      { name: "HTML/CSS", proficiency: "Production Level Experience" },
-      { name: "Sass", proficiency: "Production Level Experience" },
-      { name: "JavaScript", proficiency: "Production Level Experience" },
-      { name: "ES6", proficiency: "Production Level Experience" },
-      { name: "jQuery", proficiency: "Production Level Experience" },
-      { name: "Bootstrap", proficiency: "Production Level Experience" },
-      { name: "MaterialUI", proficiency: "Production Level Experience" },
-      { name: "RESTful API", proficiency: "Production Level Experience" },
-      { name: "GraphQL", proficiency: "Production Level Experience" },
-      { name: "Webpack", proficiency: "Production Level Experience" },
-      { name: "ThreeJS", proficiency: "Production Level Experience" }
+      { name: "Frontend Development with React", proficiency: "Production Level Experience" },
+      { name: "Frontend Development with Next.js", proficiency: "Production Level Experience" },
+      { name: "Chrome Extension Development with Vite", proficiency: "Production Level Experience" },
+      { name: "Mobile Development with React Native", proficiency: "Experimenting on my own" },
+      { name: "Frontend Development with Vue.js", proficiency: "Experimenting on my own" },
+    ]
+  },
+  {
+    title: "Styling Libraries",
+    icon: (
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+      </svg>
+    ),
+    skills: [
+      { name: "Tailwind", proficiency: "Production Level Experience" },
+      { name: "Material UI", proficiency: "Production Level Experience" },
+      { name: "Daisy UI", proficiency: "Production Level Experience" },
+    ]
+  },
+  {
+    title: "3D Libraries",
+    icon: (
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+      </svg>
+    ),
+    skills: [
+      { name: "Three.js", proficiency: "Production Level Experience" },
+      { name: "React Three Fiber", proficiency: "Production Level Experience" },
+      { name: "React Three Drei", proficiency: "Production Level Experience" },
+    ]
+  },
+  {
+    title: "Testing & QA Engineering",
+    icon: (
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+      </svg>
+    ),
+    skills: [
+      { name: "Jest", proficiency: "Production Level Experience" },
+      { name: "Cypress", proficiency: "Production Level Experience" },
+      { name: "Playwright", proficiency: "Production Level Experience" },
+      { name: "Selenium", proficiency: "Production Level Experience" },
+      { name: "JUnit", proficiency: "Production Level Experience" },
+      { name: "Mockito", proficiency: "Production Level Experience" },
+      { name: "Jasmine", proficiency: "Production Level Experience" },
+      { name: "React Testing Library", proficiency: "Production Level Experience" },
+      {name: "pytest", proficiency: "Production Level Experience"}
+      
     ]
   },
   {
